@@ -1,50 +1,59 @@
 #pragma once
+
 #include <thread>
-#include "sleepDetect.h"
+#include "sleepDetect.h"  // ✅ Ensure AWAKE, SLEEPING, NOFACE are properly defined
 #include <iostream>
 #include <mutex>
 #include <condition_variable>
 
-
-//mutex and cv for action stateMachine
+// 🚀 Global mutex and condition variable for action state machine
 extern std::mutex action_mutex;
 extern std::condition_variable action_cv;
 
-/** @brief class that handles the appropriate action depending on the sleep status:
- * plays warning when the driver is not detected, or alarm when the driver is asleep.
+/** 
+ * @brief Class that handles the appropriate action depending on sleep status.
+ * 
+ * - Plays **warning** when the driver is not detected.
+ * - Plays **alarm** when the driver is asleep.
  * 
  * ### USAGE:
- * Change state using @see changeState() and the class handles the appropriate actions accordingly.
+ * - Call `changeState(int state)` to update the state.
+ * - The class will automatically handle the appropriate actions.
  */
 class ActionStateMachine
 {
 public:
 
-	/** @brief Changes the current state of the state machine and does the appropriate action accordingly.
-	 *  @param state A new state to be changed to.
-	 */
-	void changeState(int state);
+    /** 
+     * @brief Changes the current state of the state machine and performs the appropriate action.
+     * @param state The new state to change to.
+     */
+    void changeState(int state);
 
-	/**
-	 * @brief Get the current state
-	 * 
-	 * @return int current state
-	 */
-	int getState(){
-		return currentState;
-	}
+    /** 
+     * @brief Get the current state.
+     * @return int The current state.
+     */
+    int getState() {
+        return currentState;
+    }
 
-	ActionStateMachine() = default;
+    /** Constructor */
+    ActionStateMachine() = default;
+
+    /** Destructor (Ensures thread stops when object is destroyed) */
+    ~ActionStateMachine() { stop(); }  
 
 private:
-	void start();
-	void stop();
-	void doAction(int sleepStatus);
-	void outputAlarm();
-	void outputWarning();
-	void threadLoop();
-	bool isOn = false;
-	int currentState = AWAKE;
-	std::thread actionThread;
+    void start();
+    void stop();
+    void doAction(int sleepStatus);
+    void outputAlarm();
+    void outputWarning();
+    void threadLoop();
+
+    bool isOn = false;
+    int currentState = AWAKE;  // ✅ Ensure AWAKE is defined in `sleepDetect.h`
+    std::thread actionThread;
 };
 

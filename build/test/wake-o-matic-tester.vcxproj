@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3B771A9-ED5D-30AA-95F3-EE1313667DD9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>wake-o-matic-tester</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\faris\wake-o-matic\build\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wake-o-matic-tester.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wake-o-matic-tester</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\faris\wake-o-matic\build\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wake-o-matic-tester.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wake-o-matic-tester</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\faris\wake-o-matic\build\test\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">wake-o-matic-tester.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">wake-o-matic-tester</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\faris\wake-o-matic\build\test\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">wake-o-matic-tester.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">wake-o-matic-tester</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "C:/boost_1_87_0/include/boost-1_87" -std=c++2a -pthread -lstdc++</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\wake-o-matic-tests.lib;..\src\Debug\wake-o-matic-modules.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\boost_1_87_0\lib\libboost_log_setup-vc143-mt-gd-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_log-vc143-mt-gd-x64-1_87.lib;advapi32.lib;mswsock.lib;psapi.lib;secur32.lib;ws2_32.lib;C:\boost_1_87_0\lib\libboost_filesystem-vc143-mt-gd-x64-1_87.lib;bcrypt.lib;synchronization.lib;C:\boost_1_87_0\lib\libboost_atomic-vc143-mt-gd-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_thread-vc143-mt-gd-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_chrono-vc143-mt-gd-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_system-vc143-mt-gd-x64-1_87.lib;-lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/faris/wake-o-matic/build/test/Debug/wake-o-matic-tester.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/faris/wake-o-matic/build/test/Debug/wake-o-matic-tester.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "C:/boost_1_87_0/include/boost-1_87" -std=c++2a -pthread -lstdc++</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\wake-o-matic-tests.lib;..\src\Release\wake-o-matic-modules.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\boost_1_87_0\lib\libboost_log_setup-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_log-vc143-mt-x64-1_87.lib;advapi32.lib;mswsock.lib;psapi.lib;secur32.lib;ws2_32.lib;C:\boost_1_87_0\lib\libboost_filesystem-vc143-mt-x64-1_87.lib;bcrypt.lib;synchronization.lib;C:\boost_1_87_0\lib\libboost_atomic-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_thread-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_chrono-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_system-vc143-mt-x64-1_87.lib;-lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/faris/wake-o-matic/build/test/Release/wake-o-matic-tester.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/faris/wake-o-matic/build/test/Release/wake-o-matic-tester.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "C:/boost_1_87_0/include/boost-1_87" -std=c++2a -pthread -lstdc++</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\wake-o-matic-tests.lib;..\src\MinSizeRel\wake-o-matic-modules.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\boost_1_87_0\lib\libboost_log_setup-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_log-vc143-mt-x64-1_87.lib;advapi32.lib;mswsock.lib;psapi.lib;secur32.lib;ws2_32.lib;C:\boost_1_87_0\lib\libboost_filesystem-vc143-mt-x64-1_87.lib;bcrypt.lib;synchronization.lib;C:\boost_1_87_0\lib\libboost_atomic-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_thread-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_chrono-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_system-vc143-mt-x64-1_87.lib;-lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/faris/wake-o-matic/build/test/MinSizeRel/wake-o-matic-tester.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/faris/wake-o-matic/build/test/MinSizeRel/wake-o-matic-tester.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "C:/boost_1_87_0/include/boost-1_87" -std=c++2a -pthread -lstdc++</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_LOG_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_THREAD_NO_LIB;BOOST_LOG_SETUP_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\faris\wake-o-matic\src\modules;C:\opencv\build\include;C:\boost_1_87_0\include\boost-1_87;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\wake-o-matic-tests.lib;..\src\RelWithDebInfo\wake-o-matic-modules.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\boost_1_87_0\lib\libboost_log_setup-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_log-vc143-mt-x64-1_87.lib;advapi32.lib;mswsock.lib;psapi.lib;secur32.lib;ws2_32.lib;C:\boost_1_87_0\lib\libboost_filesystem-vc143-mt-x64-1_87.lib;bcrypt.lib;synchronization.lib;C:\boost_1_87_0\lib\libboost_atomic-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_thread-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_chrono-vc143-mt-x64-1_87.lib;C:\boost_1_87_0\lib\libboost_system-vc143-mt-x64-1_87.lib;-lpthread;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/faris/wake-o-matic/build/test/RelWithDebInfo/wake-o-matic-tester.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/faris/wake-o-matic/build/test/RelWithDebInfo/wake-o-matic-tester.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\faris\wake-o-matic\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/faris/wake-o-matic/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/faris/wake-o-matic -BC:/Users/faris/wake-o-matic/build --check-stamp-file C:/Users/faris/wake-o-matic/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\faris\wake-o-matic\build\CMakeFiles\4.0.0-rc2\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\faris\wake-o-matic\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/faris/wake-o-matic/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/faris/wake-o-matic -BC:/Users/faris/wake-o-matic/build --check-stamp-file C:/Users/faris/wake-o-matic/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\faris\wake-o-matic\build\CMakeFiles\4.0.0-rc2\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\faris\wake-o-matic\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/faris/wake-o-matic/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/faris/wake-o-matic -BC:/Users/faris/wake-o-matic/build --check-stamp-file C:/Users/faris/wake-o-matic/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\faris\wake-o-matic\build\CMakeFiles\4.0.0-rc2\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\faris\wake-o-matic\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/faris/wake-o-matic/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/faris/wake-o-matic -BC:/Users/faris/wake-o-matic/build --check-stamp-file C:/Users/faris/wake-o-matic/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\faris\wake-o-matic\build\CMakeFiles\4.0.0-rc2\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\faris\wake-o-matic\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\faris\wake-o-matic\test\src\runTests.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\faris\wake-o-matic\build\ZERO_CHECK.vcxproj">
+      <Project>{8669426D-69B5-3490-882F-823340A8816F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.vcxproj">
+      <Project>{7D5C5381-6CC4-379D-B113-376D28422CAC}</Project>
+      <Name>wake-o-matic-modules</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\faris\wake-o-matic\build\test\wake-o-matic-tests.vcxproj">
+      <Project>{B2945032-2E50-38E3-9842-7C688D38DEB2}</Project>
+      <Name>wake-o-matic-tests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

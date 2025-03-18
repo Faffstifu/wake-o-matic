@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\faris\wake-o-matic\build\CMakeFiles\8d3d782d04aaff8eec07838489582cef\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{31E574EB-BFE0-351C-BC6C-B643C0FB28E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
