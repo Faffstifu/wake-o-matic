@@ -1,6 +1,0 @@
-C:\Users\faris\wake-o-matic\src\modules\frameProcessor.cpp;C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.dir\Debug\frameProcessor.obj
-C:\Users\faris\wake-o-matic\src\modules\eyeStatus.cpp;C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.dir\Debug\eyeStatus.obj
-C:\Users\faris\wake-o-matic\src\modules\camera.cpp;C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.dir\Debug\camera.obj
-C:\Users\faris\wake-o-matic\src\modules\sleepDetect.cpp;C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.dir\Debug\sleepDetect.obj
-C:\Users\faris\wake-o-matic\src\modules\actionStateMachine.cpp;C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.dir\Debug\actionStateMachine.obj
-C:\Users\faris\wake-o-matic\src\modules\logging.cpp;C:\Users\faris\wake-o-matic\build\src\wake-o-matic-modules.dir\Debug\logging.obj
